@@ -83,11 +83,8 @@ color: white;
 .blue{
     background-color: #0000ff;
     text-align: left;
-    margin: 0px, 50px, 0px, 0px;
-    border-right: 5px;
-    border-top: 2px;
-    border-bottom: 0px; 
-    border-left: 0px;
+    margin: 0px, 0px, 50px, 0px;
+    border-width: 2px 5px 0px 0px;
     border-style: solid;
 }
 
@@ -99,11 +96,9 @@ color: #C4C4C4;
 background-color: yellow;
 text-align: right;
 margin-left: 50px;
-border: 0px, 0px, 5px, 0px; 
 border-style: solid;
 border-color: white;
-border: 0px, 0px, 2px, 5px;
-
+border-width: 0px 0px 2px 5px;
 }
 
 .yellow h2{
@@ -119,7 +114,7 @@ background-color:#008500;
 text-align: left;
 margin-right: 50px;
 border-style: solid;
-border: 2px, 5px, 0px, 0px;
+border-width: 2px, 5px, 0px, 0px;
 }
 
 .green h2{
